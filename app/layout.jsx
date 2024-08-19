@@ -5,6 +5,9 @@ import "@/styles/globals.css";
 export const metadata = {
   title: "Promptopia",
   description: "Discover and share AI Prompts",
+  icons: {
+    icon: "/assets/images/logo.svg",
+  },
 };
 
 const RootLayout = ({ children }) => {
